@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Image sequence assets (large binary files — keep locally, serve from /public)
+/zip_extract/
+/public/sequence/
+
+# Raw zip
+*.zip
